@@ -1,0 +1,15 @@
+name: Shards
+main: de.greenman1805.shards.Main
+version: 1.0
+author: Greenman1805
+depends: [Vault]
+commands:
+  money:
+    description: All Money Commands
+    aliases: [shards]
+  pay:
+    description: Pay Player Money
+
+permissions:
+  shards.admin:
+    default: op    
